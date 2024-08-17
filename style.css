@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-family:  'Roboto', sans-serif;;  /* pour tout page ecrit de meme façon */
+    font-size: 16px;
+}
+.home
+{
+    width: 100%;
+    height: 100vh;
+    background-color: mediumpurple;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+}
+span{
+    color: azure;
+}
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+nav  {
+padding-top: 3rem;
+display: flex;
+align-items: center;
+padding: 15px 0;
+width: 100%;
+margin: auto;
+padding: 10px 0
+}
+
+ul{
+    margin-top: 1%;
+    margin-left: 40%;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 0.8rem 1.5rem ;
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 16px;
+
+
+}
+ ul li a{
+    color: rgb(181, 171, 190);
+    text-decoration: none;
+
+}
+ ul li a:hover{
+    color: black;
+}
+.content{
+    background-color: rgb(165, 159, 168);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.container{
+    position: relative;
+    bottom: 1px;
+    align-items: center;
+
+}
+h1{
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+}
+.home.image{
+    img {
+        width: 100%; /* Makes the image responsive to its container */
+        height: auto; /* Maintains aspect ratio */
+        bottom: -1;
+    }
+    
+}
+.image img {
+    position: absolute;
+    height: 400%;
+    left: 70%;
+    transform: translate(100%);
+    bottom: -200px;
+    align-self: flex-end;
+    transition: bottom 1s,left 1s;
+}
+.image:hover .pic{
+    left: 45%;
+
+
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #891856;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding:10px 30px ;
+    border-radius: 50px;
+    background-color: #891856;
+
+}
+.main img{
+    width: 35%;
+}
+.about{
+     width: 100% 
+     padding: 100px 0px;
+     background-color: #5555;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: blueviolet;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px; 
+}
+.about-text h5{
+    color: palevioletred;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgb(33, 6, 2);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #891856;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #891856;
+    cursor: pointer;
+}
+.title img{
+    width: 35%;
+}
+.service{
+    width: 100% 
+    padding: 100px 0px;
+    background-color: #5555;}
+    .title{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;}
+        .box h2{
+            color: blueviolet;
+            font-size: 75px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            align-items: center; 
+        }
+        .about-text p{
+            color: rgb(33, 6, 2);
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;}
+        .contact-Me{
+            width: 100%;
+            height: 290px;
+            background: url(/image/Social\ media-pana.png);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .contact-Me p{
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        .contact-Me .button-two{
+            background-color: #891856;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: 30px;
+            transition: 4s;
+
+        }
+        .contact-Me .button-two:hover{
+            background-color: transparent;
+          border: 2px solid #891856;
+           cursor: pointer;
+
+        }
+        
+        footer{
+            position: relative;
+            width: 100%;
+            height: 70px;
+            background: plum;
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+        }
+        footer p{
+            font-size: 20px;
